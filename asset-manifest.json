@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react_coalition/static/css/main.a747a003.css",
+    "main.css": "/react_coalition/static/css/main.982c4019.css",
     "main.js": "/react_coalition/static/js/main.0bb2108e.js",
     "static/js/787.79e5eeeb.chunk.js": "/react_coalition/static/js/787.79e5eeeb.chunk.js",
     "static/media/kazbegi_0.jpg": "/react_coalition/static/media/kazbegi_0.3a16fc926505f18eda8d.jpg",
@@ -26,12 +26,12 @@
     "static/media/revicons.ttf": "/react_coalition/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/react_coalition/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/react_coalition/index.html",
-    "main.a747a003.css.map": "/react_coalition/static/css/main.a747a003.css.map",
+    "main.982c4019.css.map": "/react_coalition/static/css/main.982c4019.css.map",
     "main.0bb2108e.js.map": "/react_coalition/static/js/main.0bb2108e.js.map",
     "787.79e5eeeb.chunk.js.map": "/react_coalition/static/js/787.79e5eeeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a747a003.css",
+    "static/css/main.982c4019.css",
     "static/js/main.0bb2108e.js"
   ]
 }
