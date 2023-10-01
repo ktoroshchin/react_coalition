@@ -29,19 +29,19 @@ function App() {
     <main>
       <div className='hero'>
         <div className='hero__avatar'>
-          <img src={kazbegi_0} />
+          <img alt='img_mountain' src={kazbegi_0} />
         </div>
         <div className='hero__nav'>
           <a href='#hero_1'>01. HISTORY</a>
           <a href='#hero_2'>02. TEAM</a>
         </div>
-        <img src={kazbegi_0} />
+        <img alt='img_mountain' src={kazbegi_0} />
       </div>
 
       {/*****SECTION 1*************/}
       <div className='hero_1__logo__nav'>
         <div className='hero_1__logo'>
-          <img src={kazbegi_1} />
+          <img alt='img_mountain' src={kazbegi_1} />
           <p>KAZBEGI</p>
         </div>
         <div className='hero_1__nav'>
@@ -64,7 +64,7 @@ function App() {
         </div>
 
 
-        <img src={kazbegi_1} />
+        <img alt='img_mountain' src={kazbegi_1} />
         <div className='slider_container'>
           <Slider />
         </div>
@@ -86,13 +86,13 @@ function App() {
       {view < 768 ? <AccordionMenu /> : <MenuNav />}
 
       <div id='hero_2' className='hero_2__container'>
-        <img src={kazbegi_2} />
+        <img alt='img_mountain' src={kazbegi_2} />
         <Schedule />
       </div>
 
       <div className='hero_2_footer'>
         <div className='hero_1__logo'>
-          <img src={kazbegi_1} />
+          <img alt='img_mountain' src={kazbegi_1} />
           <p>KAZBEGI MOUNTAINS</p>
         </div>
         <p>COPYRIGHT 2023. ALL RIGHTS RESERVED</p>
