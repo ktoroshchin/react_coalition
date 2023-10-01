@@ -226,12 +226,15 @@ a {
 .hero_2__menu {
   background-color: #274472 !important;
   margin: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
 }
 
 .hero_2__menu> :nth-child(1) {
   color: #5885AF !important;
   background: #ead1d1 !important;
   margin-left: 30rem !important;
+  border-radius: 0 !important;
 }
 
 .hero_2__menu> :nth-child(2) {
@@ -331,11 +334,9 @@ a {
     font-size: larger;
   }
 
-  .hero_2__menu {
+  .hero_2__menu.menu{
     width: 100%;
-  }
-
-  .hero_2__menu {
+    border: 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -344,7 +345,6 @@ a {
 
   .hero_2__menu> :nth-child(1) {
     margin: 0 !important;
-
   }
 
   .hero_2 p {

@@ -1,12 +1,12 @@
-import kazbegi_0 from './assets/kazbegi_0.jpg'
-import kazbegi_1 from './assets/kazbegi_1.jpg'
-import kazbegi_2 from './assets/kazbegi_2.jpg'
+import kazbegi_0 from '../assets/kazbegi_0.jpg'
+import kazbegi_1 from '../assets/kazbegi_1.jpg'
+import kazbegi_2 from '../assets/kazbegi_2.jpg'
 import Slider from './Carousel'
 import MenuNav from './Menu'
 import Schedule from './Schedule'
 import AccordionMenu from './Accordion'
 import { useEffect, useState } from 'react'
-import './App.css'
+import '../App.css'
 
 function App() {
   const [view, setView] = useState(window.innerWidth)
@@ -18,7 +18,6 @@ function App() {
   useEffect(() => {
     window.addEventListener('resize', handleWindowResize);
 
-    // Remove the event listener when the component unmounts
     return () => {
       window.removeEventListener('resize', handleWindowResize);
     };
@@ -97,7 +96,6 @@ function App() {
         </div>
         <p>COPYRIGHT 2023. ALL RIGHTS RESERVED</p>
       </div>
-
     </main>
   )
 }
