@@ -144,7 +144,7 @@ a {
 
 .slider_container {
   position: absolute;
-  top: 74.5%;
+  top: 72.4%;
   width: 100%;
   height: 13.9rem;
   background-color: rgba(39, 68, 114, 0.5);
@@ -324,7 +324,7 @@ a {
   }
 
   .schedule_container {
-    width: 22rem;
+    width: 80%;
   }
 
   .schedule_section {
@@ -366,9 +366,5 @@ a {
 
   .schedule_container {
     background-color: rgba(255, 255, 255, 0.5);
-  }
-
-  .react-multi-carousel-dot-list {
-    background-color: black;
   }
 }
