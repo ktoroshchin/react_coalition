@@ -98,8 +98,6 @@ function App() {
         <p>COPYRIGHT 2023. ALL RIGHTS RESERVED</p>
       </div>
 
-
-
     </main>
   )
 }
